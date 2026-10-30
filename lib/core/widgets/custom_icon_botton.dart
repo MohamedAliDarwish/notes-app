@@ -15,7 +15,7 @@ class CustomIconBotton extends StatelessWidget {
       color: iconColor??Colors.white,
       style: IconButton.styleFrom(
         backgroundColor: color??AppColors.secondary,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadiusGeometry.circular(10)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       ),
       icon: Icon(icon,),);
   }

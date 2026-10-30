@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:notes_app/core/models/note_model.dart';
+import 'package:notes_app/features/home/models/note_model.dart';
 
 class NoteItem extends StatelessWidget {
   final NoteModel noteModel;
   final VoidCallback? onTap;
 
-  const NoteItem({
-    super.key,
-    required this.noteModel,
-    this.onTap,
-  });
+  const NoteItem({super.key, required this.noteModel, this.onTap});
 
   @override
   Widget build(BuildContext context) {
